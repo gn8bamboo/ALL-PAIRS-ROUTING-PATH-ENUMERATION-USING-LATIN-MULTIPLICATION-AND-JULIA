@@ -1,0 +1,25 @@
+PoPs and CP T1, T1.5 and TX Ellipses Generated.....OK
+PoP/Ellipse generation time : 0.000421309 seconds
+PoP Assignment Completed...........................OK
+PoP Assignment : 10.726129927 seconds
+PoP deletion Execution : 0.116695564 seconds
+IXP Selection : 5.3709e-5 seconds
+Stub Creation : 0.046749155 seconds
+Stub Assignment : 0.762211919 seconds
+ISP/PoP Statistics Stored..........................OK
+PoP Position Vector Stored.........................OK
+ISP Details Vector Stored.........................OK
+Tier-1 Peering.....................................OK
+Tier-1 Peering : 20.122983174 seconds
+Providing to Tier-X................................OK
+Tier-X Providing : 109.788612353 seconds
+Tier-X Peering.....................................OK
+Tier-X Peering : 6.836068457 seconds
+Providing to Stub : Connection Decision............OK
+Providing to Stub : Link Decision..................OK
+Stub Providing : 0.135095706 seconds
+Nodes : 20607
+Edges : 64465.0
+Adjacency Matrix Stored............................OK
+ISP Presence Matrix Stored.........................OK
+Connection Statistics Stored.......................OK

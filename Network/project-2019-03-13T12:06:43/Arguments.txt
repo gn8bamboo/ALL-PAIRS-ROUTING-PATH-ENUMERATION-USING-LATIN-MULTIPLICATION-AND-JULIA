@@ -1,0 +1,21 @@
+#Version : 80
+#Timestamp : 2019-03-13T12:06:43
+#Original number of Tier-1 ISPs : 15
+#Original number of Tier-X ISPs : 150
+#Original number of PoPs : 1500
+#Tier-1 minimum size threshold : 0.2
+#Tier-X maximum size threshold : 0.1
+#Tier-1 maximum size threshold : 0.5
+#Tier-X minimum size threshold : 0.05
+#Stub Percentage : 84
+#IXP Population threshold : 2.5
+#Percentage of Large Stubs : 0.1
+#Large Stub scale size factor : 0.2
+#T1-TX Provider Probability : 0.8
+#TX-TX Provider Probability : 0.6
+#TX-TX provider difference parameter : 5
+#IXP peer probability : 0.8
+#AS peering size factor : 10
+#Percentage of Peer Prefering Tier-1s : 0.2
+#Focus Area : 1
+
