@@ -93,7 +93,7 @@ The common elements of all three implementations are depicted in the following F
 ![Flowchart of the Path Solver](https://github.com/gn8bamboo/ALL-PAIRS-ROUTING-PATH-ENUMERATION-USING-LATIN-MULTIPLICATION-AND-JULIA/blob/main/Flowchart.png)
 
 The parallel A* implementation parallelizes the matrix multiplication dividing column of Link matrix L among different threads that all share Path matrix $P_{i}$ and produce other rows of the matrix $P_{i+1}$. The parallel process is described in the following Figure. 
-![Flowchart of the Paralle Path Solver](https://github.com/gn8bamboo/ALL-PAIRS-ROUTING-PATH-ENUMERATION-USING-LATIN-MULTIPLICATION-AND-JULIA/blob/main/parellel%20process.png)
+![Flowchart of the Paralle Path Solver](https://github.com/gn8bamboo/ALL-PAIRS-ROUTING-PATH-ENUMERATION-USING-LATIN-MULTIPLICATION-AND-JULIA/blob/main/parellel process.png)
 
 ## Path Prefix Attack
 In our original routing path solver, each node of the network announces a unique IP prefix. In the path prefix attack model, we select a node to act maliciously and pretend to be the origin of a prefix that belongs to a different node. The path prefix attack process is depicted in Figure.
