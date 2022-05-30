@@ -90,7 +90,8 @@ In Julia, only "isbits" elements are supported in a Shared-Array. Each element o
 To represent the path in our path solver, we use arrays of the array with Julia Build in Array. For instance, path P = [[1,2,3],[1,4,3]]. But in the Julia Shared-Array, arrays of the array is not allowed since arrays are not the Bit type. 
 
 The common elements of all three implementations are depicted in the following Figure.
-![Flowchart of the Path Solver](https://drive.google.com/uc?export=view&id=1xYW5T_PYv1EaXK81uG5g437yLAUavfhP)(https://drive.google.com/file/d/1xYW5T_PYv1EaXK81uG5g437yLAUavfhP/view?usp=sharing)
+![Flowchart of the Path Solver] <a href="https://drive.google.com/uc?export=view&id=1xYW5T_PYv1EaXK81uG5g437yLAUavfhP">
+(https://drive.google.com/uc?export=view&id=1xYW5T_PYv1EaXK81uG5g437yLAUavfhP)(https://drive.google.com/file/d/1xYW5T_PYv1EaXK81uG5g437yLAUavfhP/view?usp=sharing)
 
 The parallel A* implementation parallelizes the matrix multiplication dividing column of Link matrix L among different threads that all share Path matrix $P_{i}$ and produce other rows of the matrix $P_{i+1}$. The parallel process is described in the following Figure. 
 ![Flowchart of the Paralle Path Solver](https://drive.google.com/file/d/1w5etW792Af4r8RxsBS00Nv6sI_45XySO/view?usp=sharing)
