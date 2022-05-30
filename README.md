@@ -90,15 +90,14 @@ In Julia, only "isbits" elements are supported in a Shared-Array. Each element o
 To represent the path in our path solver, we use arrays of the array with Julia Build in Array. For instance, path P = [[1,2,3],[1,4,3]]. But in the Julia Shared-Array, arrays of the array is not allowed since arrays are not the Bit type. 
 
 The common elements of all three implementations are depicted in the following Figure.
-![Flowchart of the Path Solver] <a href="https://drive.google.com/uc?export=view&id=1xYW5T_PYv1EaXK81uG5g437yLAUavfhP">
-(https://drive.google.com/uc?export=view&id=1xYW5T_PYv1EaXK81uG5g437yLAUavfhP)(https://drive.google.com/file/d/1xYW5T_PYv1EaXK81uG5g437yLAUavfhP/view?usp=sharing)
+![Flowchart of the Path Solver](https://github.com/gn8bamboo/ALL-PAIRS-ROUTING-PATH-ENUMERATION-USING-LATIN-MULTIPLICATION-AND-JULIA/blob/main/Flowchart.png)
 
 The parallel A* implementation parallelizes the matrix multiplication dividing column of Link matrix L among different threads that all share Path matrix $P_{i}$ and produce other rows of the matrix $P_{i+1}$. The parallel process is described in the following Figure. 
-![Flowchart of the Paralle Path Solver](https://drive.google.com/file/d/1w5etW792Af4r8RxsBS00Nv6sI_45XySO/view?usp=sharing)
+![Flowchart of the Paralle Path Solver](https://github.com/gn8bamboo/ALL-PAIRS-ROUTING-PATH-ENUMERATION-USING-LATIN-MULTIPLICATION-AND-JULIA/blob/main/parellel%20process.png)
 
 ## Path Prefix Attack
 In our original routing path solver, each node of the network announces a unique IP prefix. In the path prefix attack model, we select a node to act maliciously and pretend to be the origin of a prefix that belongs to a different node. The path prefix attack process is depicted in Figure.
-![Process of Path Prefix Attack](https://drive.google.com/file/d/1Us3teD7DPrIivdQMqeP1lIxCbhU1RAew/view?usp=sharing)
+![Process of Path Prefix Attack](https://github.com/gn8bamboo/ALL-PAIRS-ROUTING-PATH-ENUMERATION-USING-LATIN-MULTIPLICATION-AND-JULIA/blob/main/Flowchart-Origin.png)
 
 The only difference with the general path solver process, Link Matrix $L$ does not equal Path Matrix $P_{0}$. We build a new Path Matrix $P_{0}$ in the path prefix attack process by inserting fake paths.
 
