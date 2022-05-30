@@ -92,7 +92,9 @@ To represent the path in our path solver, we use arrays of the array with Julia 
 The common elements of all three implementations are depicted in the following Figure.
 ![Flowchart of the Path Solver](https://github.com/gn8bamboo/ALL-PAIRS-ROUTING-PATH-ENUMERATION-USING-LATIN-MULTIPLICATION-AND-JULIA/blob/main/Flowchart.png)
 
-The parallel A* implementation parallelizes the matrix multiplication dividing column of Link matrix L among different threads that all share Path matrix $P_{i}$ and produce other rows of the matrix $P_{i+1}$. The parallel process is described in the following Figure. 
+The parallel A* implementation parallelizes the matrix multiplication dividing column of Link matrix L among different threads that all share Path matrix $P_{i}$ and produce other rows of the matrix $P_{i+1}$. 
+
+The parallel process is described in the following Figure. 
 ![Flowchart of the Paralle Path Solver](https://github.com/gn8bamboo/ALL-PAIRS-ROUTING-PATH-ENUMERATION-USING-LATIN-MULTIPLICATION-AND-JULIA/blob/main/parellel.png)
 
 ## Path Prefix Attack
